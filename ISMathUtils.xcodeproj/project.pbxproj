@@ -10,6 +10,7 @@
 		099A46CA1B6A064D00E9C21D /* ISMathUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 099A46C91B6A064D00E9C21D /* ISMathUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		099A46D01B6A064D00E9C21D /* ISMathUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099A46C41B6A064D00E9C21D /* ISMathUtils.framework */; };
 		099A46D71B6A064D00E9C21D /* ISMathUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099A46D61B6A064D00E9C21D /* ISMathUtilsTests.swift */; };
+		099A46E11B6A0D6800E9C21D /* CGPointVectorOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099A46E01B6A0D6800E9C21D /* CGPointVectorOps.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		099A46CF1B6A064D00E9C21D /* ISMathUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISMathUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		099A46D51B6A064D00E9C21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		099A46D61B6A064D00E9C21D /* ISMathUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISMathUtilsTests.swift; sourceTree = "<group>"; };
+		099A46E01B6A0D6800E9C21D /* CGPointVectorOps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointVectorOps.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				099A46C91B6A064D00E9C21D /* ISMathUtils.h */,
+				099A46E01B6A0D6800E9C21D /* CGPointVectorOps.swift */,
 				099A46C71B6A064D00E9C21D /* Supporting Files */,
 			);
 			path = ISMathUtils;
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				099A46E11B6A0D6800E9C21D /* CGPointVectorOps.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +328,7 @@
 		099A46DB1B6A064D00E9C21D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -334,12 +339,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		099A46DC1B6A064D00E9C21D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;

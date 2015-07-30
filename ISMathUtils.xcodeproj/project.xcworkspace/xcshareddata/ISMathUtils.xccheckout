@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B1BFA0D0-2B67-4908-A266-3117A3A11C1B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A0323A1086B75001077EC7FB0486EA6434E04AFF</key>
+		<string>github.com:RetractableKatana/ISMathUtils.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ISMathUtils.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A0323A1086B75001077EC7FB0486EA6434E04AFF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:RetractableKatana/ISMathUtils.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A0323A1086B75001077EC7FB0486EA6434E04AFF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A0323A1086B75001077EC7FB0486EA6434E04AFF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ISMathUtils</string>
+		</dict>
+	</array>
+</dict>
+</plist>
