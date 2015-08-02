@@ -8,34 +8,34 @@
 
 import CoreGraphics.CGGeometry
 
-func + (left: CGPoint, right: CGPoint) -> CGPoint
+public func + (left: CGPoint, right: CGPoint) -> CGPoint
 {
     return CGPoint(x:left.x + right.x, y:left.y + right.y);
 }
 
-func - (left: CGPoint, right: CGPoint) -> CGPoint
+public func - (left: CGPoint, right: CGPoint) -> CGPoint
 {
     return CGPoint(x: left.x - right.x, y: left.y - right.y);
 }
 
-func * (left: CGPoint, right: CGFloat) -> CGPoint
+public func * (left: CGPoint, right: CGFloat) -> CGPoint
 {
     return CGPoint(x: left.x * right, y: left.y * right);
 }
 
-func / (left: CGPoint, right: CGFloat) -> CGPoint
+public func / (left: CGPoint, right: CGFloat) -> CGPoint
 {
     return CGPoint(x: left.x / right, y: left.y / right);
 }
 
 extension CGPoint
 {
-    func length() -> CGFloat
+    public func length() -> CGFloat
     {
         return sqrt(x*x + y*y)
     }
     
-    func normalize() ->CGPoint
+    public func normalize() ->CGPoint
     {
         return self / length();
     }
