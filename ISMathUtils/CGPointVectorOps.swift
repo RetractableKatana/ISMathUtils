@@ -28,7 +28,7 @@ public func / (left: CGPoint, right: CGFloat) -> CGPoint
     return CGPoint(x: left.x / right, y: left.y / right);
 }
 
-extension CGPoint
+public extension CGPoint
 {
     public func length() -> CGFloat
     {
