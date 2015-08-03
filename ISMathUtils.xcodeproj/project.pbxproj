@@ -11,6 +11,7 @@
 		099A46D01B6A064D00E9C21D /* ISMathUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099A46C41B6A064D00E9C21D /* ISMathUtils.framework */; };
 		099A46D71B6A064D00E9C21D /* ISMathUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099A46D61B6A064D00E9C21D /* ISMathUtilsTests.swift */; };
 		099A46E11B6A0D6800E9C21D /* CGPointVectorOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099A46E01B6A0D6800E9C21D /* CGPointVectorOps.swift */; };
+		09F665CC1B6F0890004E7E01 /* ISTouchPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F665CB1B6F0890004E7E01 /* ISTouchPath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		099A46D51B6A064D00E9C21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		099A46D61B6A064D00E9C21D /* ISMathUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISMathUtilsTests.swift; sourceTree = "<group>"; };
 		099A46E01B6A0D6800E9C21D /* CGPointVectorOps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointVectorOps.swift; sourceTree = "<group>"; };
+		09F665CB1B6F0890004E7E01 /* ISTouchPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISTouchPath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				099A46C91B6A064D00E9C21D /* ISMathUtils.h */,
 				099A46E01B6A0D6800E9C21D /* CGPointVectorOps.swift */,
 				099A46C71B6A064D00E9C21D /* Supporting Files */,
+				09F665CB1B6F0890004E7E01 /* ISTouchPath.swift */,
 			);
 			path = ISMathUtils;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09F665CC1B6F0890004E7E01 /* ISTouchPath.swift in Sources */,
 				099A46E11B6A0D6800E9C21D /* CGPointVectorOps.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
